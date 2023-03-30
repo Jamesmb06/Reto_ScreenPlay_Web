@@ -1,6 +1,7 @@
 package com.sofkau.setup;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import net.serenitybdd.core.Serenity;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
@@ -61,4 +62,8 @@ public class Configuracion {
         WebDriverWait wait = new WebDriverWait(getDriver(), DIEZ_SEGUNDOS);
         wait.until(ExpectedConditions.alertIsPresent());
     }
+    public static String getConfigurationValue(String key) {
+        return Serenity.sessionVariableCalled(key);
+    }
+
 }
