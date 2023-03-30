@@ -4,7 +4,7 @@ import net.serenitybdd.screenplay.targets.Target;
 import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.By;
 
-public class PaginaInicial extends PageObject {
+public class PaginaPrincipal extends PageObject {
 
     public static final Target BOTON_CLIENTES = Target.the("Boton ir clientes")
             .located(By.xpath("(//i)[1]"));

@@ -10,8 +10,6 @@ import org.junit.runner.RunWith;
         features = {"src/test/resources/features"},
         glue = {"com.sofkau.stepdefinitions"}
 
-        //  @InicioSesion
-        //  @CompraProductos
 )
 public class RunnerTest {
 }

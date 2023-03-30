@@ -9,7 +9,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
-import static com.sofkau.ui.PaginaInicial.*;
+import static com.sofkau.ui.PaginaPrincipal.*;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isClickable;
 
 public class IniciarSesion implements Task {
