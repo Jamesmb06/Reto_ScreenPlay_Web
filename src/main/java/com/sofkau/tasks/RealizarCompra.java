@@ -12,8 +12,8 @@ public class RealizarCompra implements Task {
     public <T extends Actor> void performAs(T actor) {
 
         actor.attemptsTo(
-                WaitUntil.the(CATEGORIA_PRODUCTOS,isClickable()),
-                Click.on(CATEGORIA_PRODUCTOS),
+                WaitUntil.the(CAT_MASCOTAS,isClickable()),
+                Click.on(CAT_MASCOTAS),
                 WaitUntil.the(ORDENAR,isClickable()),
                 Click.on(ORDENAR),
                 WaitUntil.the(ORDENAR_POR_NOMBRE,isClickable()),
@@ -22,6 +22,16 @@ public class RealizarCompra implements Task {
                 Click.on(ITEM1),
                 WaitUntil.the(ITEM2,isClickable()),
                 Click.on(ITEM2),
+                WaitUntil.the(CAT_LICORES,isClickable()),
+                Click.on(CAT_LICORES),
+                WaitUntil.the(CERVEZAS,isClickable()),
+                Click.on(CERVEZAS),
+                WaitUntil.the(ORDENAR,isClickable()),
+                Click.on(ORDENAR),
+                WaitUntil.the(ORDENAR_POR_PRECIO,isClickable()),
+                Click.on(ORDENAR_POR_PRECIO),
+                WaitUntil.the(FLECHA,isClickable()),
+                Click.on(FLECHA),
                 WaitUntil.the(ITEM3,isClickable()),
                 Click.on(ITEM3),
                 WaitUntil.the(CARRITO,isClickable()),

@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c79c6dfb-04d7-4ac1-9705-33f7acbabb9c" name="Changes" comment="Esperas explicitas agregadas">
+    <list default="true" id="c79c6dfb-04d7-4ac1-9705-33f7acbabb9c" name="Changes" comment="agregando otros productos al carrito">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sofkau/questions/MensajeOrdenPlaced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sofkau/questions/MensajeOrdenRealizada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sofkau/tasks/IniciarSesion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sofkau/tasks/IniciarSesion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sofkau/tasks/RealizarCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sofkau/tasks/RealizarCompra.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sofkau/ui/ProcesoCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sofkau/ui/ProcesoCompra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sofkau/setup/Configuracion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sofkau/setup/Configuracion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sofkau/stepdefinitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sofkau/stepdefinitions/StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/serenity.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +244,7 @@
       <workItem from="1679500323846" duration="5078000" />
       <workItem from="1679506335582" duration="5871000" />
       <workItem from="1680185045388" duration="5652000" />
-      <workItem from="1680192337889" duration="12380000" />
+      <workItem from="1680192337889" duration="14124000" />
     </task>
     <task id="LOCAL-00001" summary="Creando estructura del proyecto">
       <created>1678978556933</created>
@@ -321,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680203491029</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="agregando otros productos al carrito">
+      <created>1680205695665</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680205695665</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,6 +342,7 @@
     <MESSAGE value="inicio de sesion funcionando" />
     <MESSAGE value="Flujo de compra completo" />
     <MESSAGE value="Esperas explicitas agregadas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Esperas explicitas agregadas" />
+    <MESSAGE value="agregando otros productos al carrito" />
+    <option name="LAST_COMMIT_MESSAGE" value="agregando otros productos al carrito" />
   </component>
 </project>
