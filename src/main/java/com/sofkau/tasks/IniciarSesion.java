@@ -25,7 +25,7 @@ public class IniciarSesion implements Task {
         actor.attemptsTo(
                 WaitUntil.the(BOTON_CLIENTES,isClickable()),
                 Click.on(BOTON_CLIENTES),
-                Enter.theValue(propiedades.getProperty("serenity.username")).into(CAMPO_CORREO),
+                Enter.theValue(propiedades.getProperty("serenity.email")).into(CAMPO_CORREO),
                 Enter.theValue(propiedades.getProperty("serenity.password")).into(CAMPO_CONTRASENNA),
                 WaitUntil.the(BOTON_INICIAR_SESION,isClickable()),
                 Click.on(BOTON_INICIAR_SESION)

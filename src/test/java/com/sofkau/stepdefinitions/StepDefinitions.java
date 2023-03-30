@@ -5,14 +5,12 @@ import com.sofkau.tasks.AbrirPaginaInicial;
 import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.Entonces;
-
-import static com.sofkau.questions.MensajeOrdenPlaced.mensajeOrdenPlaced;
+import static com.sofkau.questions.MensajeOrdenRealizada.mensajeOrdenrealizada;
 import static com.sofkau.tasks.IniciarSesion.iniciarSesion;
 import static com.sofkau.tasks.RealizarCompra.realizarCompra;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 import static org.hamcrest.CoreMatchers.equalTo;
-
 import java.io.FileNotFoundException;
 import java.util.logging.Logger;
 public class StepDefinitions extends Configuracion {
@@ -41,13 +39,12 @@ public class StepDefinitions extends Configuracion {
     public void deberaVerUnMensajeDeConfirmacionDeLaCompra() {
         LOGGER.info("Verificando que el usuario vea un mensaje de confirmacion de compra");
         theActorInTheSpotlight().should(
-                seeThat(mensajeOrdenPlaced(), equalTo("ORDER PLACED!"))
+                seeThat(mensajeOrdenrealizada(), equalTo("ORDER PLACED!"))
         );
         LOGGER.info("Mensaje de confirmacion de compra verificado correctamente");
         quitarDriver();
         LOGGER.info("Driver quitado");
     }
-
 }
 
 
