@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c79c6dfb-04d7-4ac1-9705-33f7acbabb9c" name="Changes" comment="agregando assertion confirmación de compra">
+    <list default="true" id="c79c6dfb-04d7-4ac1-9705-33f7acbabb9c" name="Changes" comment="agregando scrolls">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sofkau/tasks/CategoriaLicores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sofkau/tasks/CategoriaMascotas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sofkau/ui/ItemsLicores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sofkau/ui/ItemsMascotas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b52db2ee9eeec7c778038e16208fe8dfe93ef32e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sofkau/tasks/RealizarCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sofkau/tasks/RealizarCompra.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sofkau/ui/ProcesoCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sofkau/ui/ProcesoCompra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sofkau/stepdefinitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sofkau/stepdefinitions/StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/flujocompra.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/flujocompra.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,12 +88,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Curso Automatización QA/SOFKA/C1-2023-QA-Auto-DemoScreenPlay",
+    "last_opened_file_path": "E:/Curso Automatización QA/SOFKA/AutomatizacionLaVaquita/AutomatizacionLaVaquita",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4032258",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "spring.configuration.checksum": "86244d172e8c6452f57e5f193749aa47",
     "vue.rearranger.settings.migration": "true"
@@ -278,7 +291,13 @@
       <workItem from="1679500323846" duration="5078000" />
       <workItem from="1679506335582" duration="5871000" />
       <workItem from="1680185045388" duration="5652000" />
-      <workItem from="1680192337889" duration="24009000" />
+      <workItem from="1680192337889" duration="24678000" />
+      <workItem from="1680224095836" duration="3672000" />
+      <workItem from="1680276084684" duration="197000" />
+      <workItem from="1680296906416" duration="837000" />
+      <workItem from="1680369535016" duration="1933000" />
+      <workItem from="1680371498077" duration="1321000" />
+      <workItem from="1680373325603" duration="1103000" />
     </task>
     <task id="LOCAL-00001" summary="Creando estructura del proyecto">
       <created>1678978556933</created>
@@ -371,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680212998141</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="agregando scrolls">
+      <created>1680217902631</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680217902631</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,6 +419,7 @@
     <MESSAGE value="agregando otros productos al carrito" />
     <MESSAGE value="agregando producto de otra categoría" />
     <MESSAGE value="agregando assertion confirmación de compra" />
-    <option name="LAST_COMMIT_MESSAGE" value="agregando assertion confirmación de compra" />
+    <MESSAGE value="agregando scrolls" />
+    <option name="LAST_COMMIT_MESSAGE" value="agregando scrolls" />
   </component>
 </project>

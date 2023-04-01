@@ -10,6 +10,6 @@ Característica: Compra en pagina de la vaquita
   Escenario: Iniciar sesion y realizar una compra
     Dado que el usuario esta en la pagina principal de la vaquita express
     Cuando se dirige a la seccion clientes e inicia sesion
-    Y selecciona la categoria mascostas de productos realizando una compra
+    Y selecciona las categorias de mascostas y licores realizando una compra
     Entonces debera ver un mensaje de confirmacion de la compra
 
